@@ -1,0 +1,27 @@
+@import url("https://googleapis.com"); /* Style for container */
+.container {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  height: 100vh; /* Gives the parent height to center within */
+}
+.text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--bg-primary);
+}
+/* Style for title */
+h1 {
+  color: var(--font-color-primary);
+  font-size: 60px;
+  margin: 20px 0px;
+  font-family: "Afacad", sans-serif;
+}
+h2 {
+  color: var(--font-color-primary);
+  font-size: 32px;
+  margin: 20px 0px;
+  font-family: "Afacad", sans-serif;
+}
